@@ -1,0 +1,25 @@
+{
+  "name": "musicmine",
+  "version": "1.0.0",
+  "main": "compile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.9",
+    "ganache-cli": "^6.12.2",
+    "node": "^19.8.1",
+    "solc": "^0.8.19",
+    "truffle": "^5.8.1",
+    "web3": "^1.9.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "description": ""
+}
